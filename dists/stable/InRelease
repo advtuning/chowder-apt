@@ -1,0 +1,30 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Clarity Soft
+Label: ChowderAV
+Suite: stable
+Codename: stable
+Date: Sun, 09 Aug 2026 08:59:44 +0000
+Architectures: amd64 arm64
+Components: main
+Description: ChowderAV signed package repository
+SHA256:
+ cb53fad0e0c98fc09fe0b8897c6bc08a9f081d57538695ed910e1660c19a76b3              402 main/binary-amd64/Packages
+ 0047048f88028b4bc8dbb2bfbd1708a7ca7f4586f84f67e3e6e3ef5fc39f9709              316 main/binary-amd64/Packages.gz
+ 237ea8d4a202f8d6b3d1a63494ae90d8d318a6aeb388dd2472794c9fd728be61              402 main/binary-arm64/Packages
+ 04c7e5a41ca130ed69883b61942da9bbab9303306c657e3569b27b550728553e              315 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCgAdFiEEDp92AuWCqbSApS9+OsvZkxAzPkAFAmp4QYAACgkQOsvZkxAz
+PkBqswv+OsrQ1WpthuPkmrfj0NPt850bEnt9LbMkR4/1yo6VNFPUi+BDXsHplgwE
+Irjz93/uG7uWYyAFqgyc3NFp3zfZ8k2bI0Fj12z+loAu6fkNmvkF0xJuWRhhqsFy
+IoogT9bA40IG1YmAxS5SNULw09b/A+lA7aECGQ+wneRuA3vXre+kHQaYal3TTiEd
+xIQcUAKrc3Pxy6RelgL6/q6ZsougIziLH3f6kyKrrSuClsg7Qg174bV+0Xdee2/Q
+LuRtPPrBJYXz/03XVFIwS09Dn35mzaHNBcCnuPBGW8hq9uqbRYSk0yazWh/GzzQs
+TU+aMByNT5+S3el1Uq9ImwqzLXWNHfJotxUzNfp1K9xn7P4ljX0utdJUjglxHGwh
+5vV/Df9jKZGFpK4xumVDVYlshNKLlh+L8D/Dq7fiMIp4p8LT2aNxCX2JfEguIL/J
+QQEChlEnf1R7M3/OFpay3uu+bhdOtjesIMX46yVVVjg8aRA1RnpgKvi0YGqtebAj
+axckW+r1
+=K4kJ
+-----END PGP SIGNATURE-----

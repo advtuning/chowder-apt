@@ -1,0 +1,43 @@
+name: Publish APT repository
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "dists/**"
+      - "pool/**"
+      - "chowder-archive-keyring.gpg"
+      - "scripts/verify-repository.sh"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify signed repository
+        run: bash scripts/verify-repository.sh
+      - name: Stage static repository
+        run: |
+          mkdir -p _site
+          cp -a dists pool chowder-archive-keyring.gpg _site/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

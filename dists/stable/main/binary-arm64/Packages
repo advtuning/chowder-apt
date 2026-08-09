@@ -1,0 +1,12 @@
+Package: chowder
+Version: 0.1.0-test
+Architecture: arm64
+Maintainer: ChowderAV <support@chowderav.com>
+Depends: clamav
+Filename: pool/main/c/chowder/chowder_0.1.0-test_arm64.deb
+Size: 35525262
+MD5sum: 0fd6a0c2cc51f94d6ce1bf648f685a00
+SHA1: 0ba1c9e678dc21019f94bbbce2db44237ddba70a
+SHA256: 38724f12c322a0bccd0e4066388467a3debc12c6151925f931f86608b2bfa375
+Description: Chowder companion malware scanner
+

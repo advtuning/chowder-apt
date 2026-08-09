@@ -14,6 +14,7 @@ for arch in amd64 arm64; do
   [[ -s "$packages" ]] || { echo "Missing Packages index for $arch." >&2; exit 1; }
   grep -q '^Package: chowder$' "$packages"
   grep -q "^Architecture: $arch$" "$packages"
+  grep -q '^Depends: .*clamav.*clamav-freshclam' "$packages"
   gzip -cd "$packages.gz" | cmp -s - "$packages"
 done
 

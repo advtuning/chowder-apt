@@ -31,3 +31,7 @@ echo "deb [arch=amd64,arm64 signed-by=/usr/share/keyrings/chowder-archive-keyrin
 sudo apt update
 sudo apt install chowder
 ```
+
+The Chowder package explicitly installs both `clamav` and `clamav-freshclam`, enables the ClamAV
+signature updater, and performs a best-effort initial definition update. `clamav-daemon` is a
+recommended dependency for faster daemon-backed scans, while `clamscan` remains the safe fallback.

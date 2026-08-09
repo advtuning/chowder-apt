@@ -22,6 +22,12 @@ the repository's Pages source as **GitHub Actions**.
 When this repository is published as `advtuning/chowder-apt` with GitHub Pages enabled:
 
 ```bash
+curl -fsSL https://advtuning.github.io/chowder-apt/install.sh | bash
+```
+
+The equivalent manual commands are:
+
+```bash
 curl -fsSL https://advtuning.github.io/chowder-apt/chowder-archive-keyring.gpg \
   | sudo tee /usr/share/keyrings/chowder-archive-keyring.gpg >/dev/null
 

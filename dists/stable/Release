@@ -2,12 +2,12 @@ Origin: Clarity Soft
 Label: ChowderAV
 Suite: stable
 Codename: stable
-Date: Mon, 10 Aug 2026 07:24:52 +0000
+Date: Mon, 10 Aug 2026 08:53:31 +0000
 Architectures: amd64 arm64
 Components: main
 Description: ChowderAV signed package repository
 SHA256:
- 24acdfa2c3e5a53941da80b00f768ae3063d88f800d46f05761924f81ee8b36f              446 main/binary-amd64/Packages
- babba8967bacdf42c41a2b176fed5c38454a728b9ae47685e4d6d061f8ae865f              340 main/binary-amd64/Packages.gz
- fc91998337cd572554899e5baddd9e77a6fe84add51809df82a4b893764e06eb              446 main/binary-arm64/Packages
- 32cfcfd92b07d3b0d950aac182cc0858625e705c07fa143296fd7052dcc849da              338 main/binary-arm64/Packages.gz
+ 0651fe302df264f74f45a45c42c3ca921f6c58b884c464cf855965389577e940              446 main/binary-amd64/Packages
+ aab5f31d8f8f61fcf5d7c21af7a18eac93336b13491dffdbda67e30196e4cca1              341 main/binary-amd64/Packages.gz
+ 4c2703fd22a35215f8b18fef98e7bd5b50db315006b42447d19ff6ecaa7a6c6f              446 main/binary-arm64/Packages
+ bbfcd6c7635975cd97d08702d68a69c388a8c57db249a71cac44217611bddcab              339 main/binary-arm64/Packages.gz

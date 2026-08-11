@@ -5,26 +5,26 @@ Origin: Clarity Soft
 Label: ChowderAV
 Suite: stable
 Codename: stable
-Date: Mon, 10 Aug 2026 08:53:31 +0000
+Date: Tue, 11 Aug 2026 09:09:01 +0000
 Architectures: amd64 arm64
 Components: main
 Description: ChowderAV signed package repository
 SHA256:
- 0651fe302df264f74f45a45c42c3ca921f6c58b884c464cf855965389577e940              446 main/binary-amd64/Packages
- aab5f31d8f8f61fcf5d7c21af7a18eac93336b13491dffdbda67e30196e4cca1              341 main/binary-amd64/Packages.gz
- 4c2703fd22a35215f8b18fef98e7bd5b50db315006b42447d19ff6ecaa7a6c6f              446 main/binary-arm64/Packages
- bbfcd6c7635975cd97d08702d68a69c388a8c57db249a71cac44217611bddcab              339 main/binary-arm64/Packages.gz
+ afcc45ceaf993b41a2ad9fdfaef0b13fe01865c846385952bba5762d92e9f265              449 main/binary-amd64/Packages
+ fbb8275a7c148a6fe73186ba4b1b63fc93b74fe1e013381ed9e9f60a7687477f              345 main/binary-amd64/Packages.gz
+ eeb8d19fede6a326e04755beeccf97b1e89d8324e5467bd4edf56554163d667b              449 main/binary-arm64/Packages
+ 81a1866e50f6505e52088298ab1b9820e1804267ec53af89984dc560c694dc34              345 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEa//ZZf9a4a89L7DpvDeEGq/u71EFAmp5kYsACgkQvDeEGq/u
-71Gz8Av+PkgIKO2PqaR0S0TpIs3LbKFOlid619ORMms3enAgFvA6wi7bCMcTzAbX
-wpXw1/nRfby6uEgAs2QWOHKpXDhOj8+6DXD3tPKhMUEiWs/F/e34is2ch9VimqPS
-UdFExk0ov3CdJPQl0J/dTrN28fIs33g6crN7AXA+WzoVKqq3atD9ykuxr9s433ZG
-Shsq3B8boiQ+J9UhkvsicSft1V65H2IbULrMfDeDrTA2+jW85Wg4jzEpWZVkvUfa
-2x+TlGgIY7P7alsTI2tzLd9YGQTXjlHBMBFPlFlh7MO78kG+7IBOqOQH7t5TS33v
-oZCSJ1KH5ewjQYCNWlgWedC8L12GkHVQoEqA7V/CHKa5rBEaZwM/mF6hE1K7hY7Y
-oq//iCQYVZccpgYyfW+0H2tiIHGyy97ukiSIkUlUrhi4zkQ04+lFH/BEL79RxbDu
-tTcoONApEI6sd+g43NYExaabY8L0l+6Bl65YRArUwoRfGm3rKVFdR1oOZ4gXUy19
-J0KEMmq8
-=Gn2P
+iQGzBAEBCgAdFiEEa//ZZf9a4a89L7DpvDeEGq/u71EFAmp65q4ACgkQvDeEGq/u
+71GX/Av+NwIgEGgFY6l3YDtnht7c6E+x6W6bvlNSl5bvfs+bBiCbjmdbtUEQo8vY
+CL9RqrdvVBIrxFupSJmeaLT0YQ/DZP3rJdz+MjM9V2n34zxZYh+hv2DlMW3y2gZB
+B7XvZD8t3Kba3my6lMId23PKtRUOszCTQ3FoN5Zmcp2pgoUQU3BOqvUAodNyds9q
+/bhNa0MmSg1ROMF0ijVtu+n3IhWllKNOyWcPSgrmdjndvF9HY+zEgy5DRMzat2kJ
+aXWBPkbp1gxdi4ht03EJn8lr6lB+0yjaPL7KxFFnGM9vzHHrD+t8c0You4c3eRXN
+TF/1MkX+oKXwITvX8VsdFrAXCZVoxmMmNurbiyctmgII/nTUw2fYmyZ0TlJg46oB
+bMqxqDgpwHkShTLJSbI43Wwf2I05up+jkkMqtV43Ns1iH8lu1qPiLDJViJ/RxKK3
+pQAllIAatGX5W+bOAnwa9Mv1/1ntLO9NVJMAks5Gi+sQgqpepeARZFzfGzTcZKhB
+Txz7Ne94
+=3j4o
 -----END PGP SIGNATURE-----

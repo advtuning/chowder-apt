@@ -2,7 +2,7 @@
 
 Static, signed Ubuntu/Debian package repository for ChowderAV by Clarity Soft.
 
-The prepared `0.1.3-test` packages are evaluation builds, not production
+The prepared `0.1.4-test` packages are evaluation builds, not production
 releases. The public landing page is generated from `index.html`.
 
 The published repository is suitable for GitHub Pages or any HTTPS static host. It exposes

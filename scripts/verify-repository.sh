@@ -18,6 +18,15 @@ for arch in amd64 arm64; do
   gzip -cd "$packages.gz" | cmp -s - "$packages"
 done
 
+for deb in "$root"/pool/main/c/chowder/*.deb; do
+  [[ -f "$deb" ]] || { echo "No Chowder packages found in pool." >&2; exit 1; }
+  bad_mode="$(dpkg-deb -c "$deb" | awk '$1 ~ /^[-dl]/ && (substr($1,6,1) == "w" || substr($1,9,1) == "w") { print; exit }')"
+  [[ -z "$bad_mode" ]] || {
+    echo "Unsafe group/world-writable package path in $deb: $bad_mode" >&2
+    exit 1
+  }
+done
+
 while read -r digest size relative; do
   file="$root/dists/stable/$relative"
   [[ -f "$file" ]] || { echo "Release references missing file: $relative" >&2; exit 1; }
@@ -26,4 +35,3 @@ while read -r digest size relative; do
 done < <(sed -n '/^SHA256:$/,$p' "$release" | tail -n +2)
 
 echo "Chowder APT repository verification passed."
-
